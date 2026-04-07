@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+*.env.local
+
+# FAISS index (large binary files — store separately or in Kaggle Datasets)
+faiss_index/
+*.faiss
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache (HuggingFace downloads)
+.cache/
